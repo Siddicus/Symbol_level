@@ -4,7 +4,7 @@ After pre-processing the image and inversing the binary values: (0-> white space
 
 
 
-<img src="https://raw.githubusercontent.com/Siddicus/Symbol_level/master/intial.JPG" >
+<img src="https://raw.githubusercontent.com/Siddicus/Symbol_level/master/bounding.JPG" >
 
 
 Note:
