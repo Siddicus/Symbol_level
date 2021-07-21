@@ -4,16 +4,7 @@ After pre-processing the image and inversing the binary values: (0-> white space
 
 
 
-<p float="center">
-  <img src="https://raw.githubusercontent.com/Siddicus/Symbol_level/master/mine.JPG"  />
-  
-  
-  
-  
-  <img src="https://raw.githubusercontent.com/Siddicus/Symbol_level/master/box.JPG" /> 
- 
-</p>
-
+<img src="https://raw.githubusercontent.com/Siddicus/Symbol_level/master/intial.JPG" >
 
 
 Note:
