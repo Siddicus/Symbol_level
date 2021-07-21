@@ -44,7 +44,7 @@ Due to the two reasons inference(*symbol level mapping of coordinates*) could no
 
 <img src="https://raw.githubusercontent.com/Siddicus/Symbol_level/master/sample_result.JPG" >
 
-# Main Function Usage
+## Main Function Usage
 - read_image : accepts str as a path to image and returns a numpy array
 -  bootstrap_annotations: accepts numpy image and a list of dictionaries described below and returns the dictionary with the output format( described below)
 
@@ -53,14 +53,14 @@ img = read_image("/path/to/your/image.jpg")
 word_annotations = [{"geometry": [[0., 0.], [1., 1.]], "value": "good!"}]
 symbol_annotations = bootstrap_annotations(img,word_annotations)
 ```
-# Output format
+## Output format
 ```
 {'word1': [{'geometry': [[xmin1, ymin1], [xmax1, ymax1]], 'value': 'w'}, {'geometry': [[xmin1, ymin1], [xmax1, ymax1]], 'value': 'o'} ], 
 'word2': [.......],
 }
 ```
 
-# Input format for Mock Label ( for exercise only)
+## Input format for Mock Label ( for exercise only)
 
 ```
 {
