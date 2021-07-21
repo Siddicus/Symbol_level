@@ -106,7 +106,7 @@ def read_image(img_path):
 
  
 def bootstrap_annotations(im,annotations):
-    the_default =defaultdict(list)
+    the_default ={}
     for i in annotations: 
         samp  = []
         cords = i['geometry'] 
@@ -185,7 +185,6 @@ def bootstrap_annotations(im,annotations):
             except TypeError:
                 samp.append({"geometry":[[' ' ,' ' ],[' ' ,' ' ]],"value":"unable to decipher"})
                 
-        the_default[i['value']].append(samp)
-    
-    return dict(the_default)
+        the_default.update({i['value']:samp})    
+    return the_default
   ######################################################################################################################################################################
