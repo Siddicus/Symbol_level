@@ -3,7 +3,6 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 import itertools
-from collections import defaultdict
 
 """
 HELPER FUNCTIONS
