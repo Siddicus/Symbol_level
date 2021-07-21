@@ -41,31 +41,6 @@ def consecutive(x):
                     qq.append(x[i])               
     return qq  
   
-def choose_one(foo):
-    """
-    input :[[3, 4], 7, 9, [11, 12, 13, 14], [16, 17, 18], [20, 21]]
-    output: [0, 4, 7, 9, 13, 17, 21]
-    """
-    loo = foo[:]    
-    for i in range(len(foo)):
-        try:
-            if len(foo[i]):
-                if foo[i][0]==0:                    
-                    loo[i]==0
-                else:
-                    loo[i]= foo[i][len(foo[i])//2]
-            else:
-                pass
-        except:
-            pass
-    if loo:
-        if loo[0]!=0:
-            loo.insert(0,0)
-        else:
-            pass
-    else:
-        pass
-    return loo
   
 def av_len(ans):
     """
@@ -94,6 +69,33 @@ def av_len(ans):
         except:
             pass    
     return az
+
+def choose_one(foo):
+    """
+    input :[[3, 4], 7, 9, [11, 12, 13, 14], [16, 17, 18], [20, 21]]
+    output: [0, 4, 7, 9, 13, 17, 21]
+    """
+    loo = foo[:]    
+    for i in range(len(foo)):
+        try:
+            if len(foo[i]):
+                if foo[i][0]==0:                    
+                    loo[i]==0
+                else:
+                    loo[i]= foo[i][len(foo[i])//2]
+            else:
+                pass
+        except:
+            pass
+    if loo:
+        if loo[0]!=0:
+            loo.insert(0,0)
+        else:
+            pass
+    else:
+        pass
+    return loo
+
 ##########################################################################################################################################################################
 
 
