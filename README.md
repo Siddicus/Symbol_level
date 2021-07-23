@@ -36,8 +36,8 @@ arr -> [0, 1, 5, 8, 12, 17, 34, 40]
 ```
 ## Inference
 Due to the two reasons inference(*symbol level mapping of coordinates*) could not be obtained in a straightforward manner:
-- The presence of gray boxes indicates joined-letter and no clear-cut bifurcation. Therefore, a threshold has been set and if the relative distance between the consecutive elements of arr is greater than that, it is assumed that bifurcation between those 2 list elements could not be performed . * I can still go for the average distance and shoot arrows in the dark but it wont work mostly because: sometimes more than 2 letters are non-bifurcable*. Therefore, I have skipped the treatment of those letters from the list.
-- In few images, the bounding boxes tend to trim the y_axis length, and so the characters were getting chooped up from the edge along the y_axis. 4
+- The presence of gray boxes indicates joined-letter and no clear-cut bifurcation. Therefore, a threshold has been set and if the relative distance between the consecutive elements of arr is greater than that, it is assumed that bifurcation between those 2 list elements could not be performed . *I can still go for the average distance and shoot arrows in the dark but it wont work mostly because: sometimes more than 2 letters are non-bifurcable*. Therefore, I have skipped the treatment of those letters from the list.
+- In few images, the bounding boxes tend to trim the y_axis length, and so the characters were getting chooped up from the edge along the y_axis. 
 
 ## A few snapshots of the results where the image and bounding boxes are apt:
 
